@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
 body{
     font-family: 'Mulish', sans-serif;
+    width: 1580;
     
 }
 .Travels-logo{
@@ -390,6 +391,62 @@ margin-left: 642px;
 position: relative;
 bottom: 210px;
 }
+.footer-section{
+
+}
+.Trav-logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    
+    
+}
+.Trav-logo img{
+           width: 30px;
+           height: 40px;
+           padding-left: 50px;
+           margin-top: 20px;
+        
+           
+}
+.Trav-logo h2{
+    font-size: 25px;
+}
+    
+.Trav-logo span {
+      font-size: 28px;
+      color: #FF5400;
+}
+.twitter{
+    width: 35px;
+    height: 35px;
+}
+.face{
+    width: 35px;
+    height: 35px;
+}
+.insta{
+    width: 35px;
+    height: 35px;
+}
+.footer-section{
+    justify-content: center;
+    text-align: center;
+}
+.footer-head{
+    color: #5A5A5D;
+
+text-align: center;
+font-size: 16px;
+margin-top: 0px;
+padding-top: 0px;
+}
+.footer-section hr{
+    width: 800px;
+}
+
 
 @media screen and (max-width: 576px) {
     header{
@@ -415,13 +472,19 @@ bottom: 210px;
         text-align: center;
     }
     .banner{
-        width:100%
+        width:100%;
+        
        border-radius: 16px;
+       position: absolute;
+       z-index: z;
+       
     }
-    .boxes{
+    .boxes {
         flex-direction: column;
     }
-    
+    .main-section, .row1, .row2, .row3{
+        flex-direction: column;
+    }
 
     
 }
