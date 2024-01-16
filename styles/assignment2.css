@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+body{
+    font-family: 'Mulish', sans-serif;
+    
+}
+.Travels-logo{
+    display: flex;
+    text-align: center;
+    margin: 0;
+    
+    
+}
+.Travels-logo img{
+           width: 40px;
+           height: 70px;
+           margin-top: 5px;
+           
+}
+.Travels-logo h2{
+    font-size: 40px;
+    margin-top: 8px;
+}
+.Travels-logo span {
+      font-size: 48px;
+      color: #FF5400;
+}
+.nav-class{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+}
+.option {
+    
+    align-items: center;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+    
+}
+.option a{
+    text-decoration: none;
+}
+.active{
+    color: #FF5400;
+}
+.active:hover{
+    background:rgba(61, 60, 60, 0.3);
+    transition: .5s;
+}
+.checkbtn{
+    position: absolute;
+    right: 5%;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    
+    display: none;
+    
+}
+#check{
+    display: none;
+}
+.banner{ 
+    width: 1470px;
+    height: 600px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 60px;
+    
+    
+}
+.banner-title{
+    
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+    
+}
+.banner-title h1{
+    color: #FFF;
+font-size: 64px;
+font-weight: 800;
+padding-bottom: 0;
+}
+.banner-title p{
+color: #FFF;
+font-size: 16px;
+padding-bottom: 0;
+
+
+}
+.boxes{
+    width: 850px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    margin-top: 60px;
+    margin-left: 300px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.box1{
+    width: 178px;
+height: 52px;
+    border-radius: 8px;
+background: #FFF;
+}
+.box2{
+    width: 178px;
+height: 52px;
+    border-radius: 8px;
+background: #FFF;
+}
+.box3{
+    width: 178px;
+height: 52px;
+    border-radius: 8px;
+background: #FFF;
+}
+.box4{
+    width: 178px;
+height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+}
+.main-section{
+    padding: 0 50px;
+    display: flex;
+
+}
+.suggest{
+    width: 1440px;
+height: 6940px;
+}
+.suggest button{
+    width: 174px;
+height: 52px;
+font-size: 20px;
+color: #FFF;
+border-radius: 8px;
+background: #FF5400;
+}
+.heading{
+    color: #131318;
+
+font-size: 40px;
+
+
+}
+.containt{
+    width: 577px;
+color: rgba(19, 19, 24, 0.70);
+font-size: 22px;
+}
+.images img{
+    width: 800px;
+    height: 530px;
+   margin-top: 35px;
+}
+/*.destination-title h2{
+    color: #131318;
+text-align: center;
+font-size: 40px;*/
+
+}
+@media screen and (max-width: 576px) {
+    header{
+        padding: 10px;
+    }
+
+    .checkbtn{
+        display:inline-flex;
+        margin-top: 30px;
+    }
+    .option{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width:100%;
+        height: 17.7rem;
+        background: #b35c5c;
+    }
+    .option a{
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+        text-align: center;
+    }
+    .banner{
+        width:100%
+       border-radius: 16px;
+    }
+    .boxes{
+        flex-direction: column;
+    }
+    
+
+    
+}
+
+
+
+
