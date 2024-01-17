@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
 body{
     font-family: 'Mulish', sans-serif;
-    width: 1580;
+    
     
 }
 .Travels-logo{
@@ -449,6 +449,7 @@ padding-top: 0px;
 
 
 @media screen and (max-width: 576px) {
+    
     header{
         padding: 10px;
     }
@@ -457,22 +458,10 @@ padding-top: 0px;
         display:inline-flex;
         margin-top: 30px;
     }
-    .option{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width:100%;
-        height: 17.7rem;
-        background: #b35c5c;
-    }
-    .option a{
-        display: block;
-        font-size: 1.1rem;
-        margin: 1.5rem 0;
-        text-align: center;
-    }
+    
     .banner{
-        width:100%;
+        width:85%;
+        height: 110%;
         
        border-radius: 16px;
        position: absolute;
@@ -481,12 +470,79 @@ padding-top: 0px;
     }
     .boxes {
         flex-direction: column;
+        margin-top: 0px;
+        margin-left: 140px;
+        width: 180px;
+        height: 240px;
+
     }
-    .main-section, .row1, .row2, .row3{
+     .row1, .row2, .row3{
         flex-direction: column;
     }
-
+    .main-section{
+        flex-direction: column;
+        margin-top: 780px;
+        width:100%;
+    }
+    .containt{
+        width: 500px;
+    }
+    .images img{
+        width: 500px;
+        height: 500px;
+    }
+    .hight1, .hight2, .hight3,
+    .hight4, .hight5, .hight6,
+    .hight7{
+        width: 500px;
+        height: 300px;
+    }
+    .hight3{
+      margin-top: 240px;
+    }
+    .hight6{
+        margin-top: 860px;
+    }
+    .card-details{
+        flex-direction:column;
+    }
     
+    .card-title{
+        margin-top: 1100px;
+    }
+    .hotel{
+        margin-left: 35px;
+    }
+    .map{
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+    .price{
+        margin-left: 35px;
+    }
+    .Newsletter{
+        flex-direction: column;
+    }
+    .extra{
+        width: 144px;
+    height: 110px;
+    transform: rotate(-28.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    justify-content: center;
+    text-align: center;
+    margin-left: 342px;
+    position: relative;
+    bottom: 210px;
+    }
+    .img-sec img{
+        width: 500px;
+        margin-top: 45px;
+        margin-left: 5px;
+    }
+    .footer-section{
+        margin-top: 500px;
+    }
 }
 
 
