@@ -476,8 +476,12 @@ padding-top: 0px;
         height: 240px;
 
     }
-     .row1, .row2, .row3{
+     .row1, .row2, .row3, .nav-class{
         flex-direction: column;
+    }
+    .option {
+
+        justify-content: space-between;
     }
     .main-section{
         flex-direction: column;
@@ -486,6 +490,9 @@ padding-top: 0px;
     }
     .containt{
         width: 500px;
+    }
+    .option{
+        display: none;
     }
     .images img{
         width: 500px;
